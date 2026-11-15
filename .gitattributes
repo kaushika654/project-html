@@ -1,2 +1,2 @@
 *.html text eol=lf
-*.png binary
+*.png filter=lfs diff=lfs merge=lfs -text
